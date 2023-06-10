@@ -1,0 +1,73 @@
+.page1{
+  display:flex;
+  position: relative;
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  flex-wrap:wrap; 
+  
+.summary{
+     width: 440px;
+
+     margin: 8px;
+    position: relative;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 15px;
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left:15px;
+    padding-right:15px;
+    
+
+}
+.summary:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+     width: 440px;
+
+
+}
+
+.img1 {
+
+}
+.title1 {
+
+}
+.footer2 {
+    position: absolute;
+    bottom: 15px;
+    right: 50px;
+}
+.post-tags{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+}
+
+
+.page {
+  position: relative;
+  max-width: 1400px;
+  width: 60%;
+  margin: 0 auto;
+  [header-desktop] & {
+    padding-top: $header-height;
+  }
+
+  [header-desktop=normal] & {
+    padding-top: 0;
+  }
+
+  @include blur;
+}
+
+@import "_single";
+@import "_special";
+@import "_archive";
+@import "_home";
+@import "_404";
+@import "_taxonomy";
