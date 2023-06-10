@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>configuration - Tag - MakeAcme&#39;s Easy Docker Life</title>
+        <link>https://makeacme.com/tags/configuration/</link>
+        <description>configuration - Tag - MakeAcme&#39;s Easy Docker Life</description>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 03 Mar 2020 21:29:01 &#43;0800</lastBuildDate><atom:link href="https://makeacme.com/tags/configuration/" rel="self" type="application/rss+xml" /><item>
+    <title>Theme is my love ok</title>
+    <link>https://makeacme.com/theme-documentation-basics/</link>
+    <pubDate>Tue, 03 Mar 2020 21:29:01 &#43;0800</pubDate><author>
+                        <name>Dillon</name><uri>https://dillonzq.com</uri></author><guid>https://makeacme.com/theme-documentation-basics/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/theme-documentation-basics/featured-image.webp" referrerpolicy="no-referrer">
+            </div>Just install latest version of<br>Just install latest version of<br>Just install latest version of<br>Just install latest version of<br>Just install latest version of]]></description>
+</item></channel>
+</rss>
