@@ -1,3 +1,4 @@
+
 {{- define "content" -}}
     {{- $params := .Scratch.Get "params" -}}
     {{- $profile := .Site.Params.home.profile -}}
@@ -20,6 +21,7 @@
 
 
     </div>
+
     <div class="page1"{{ if ne $posts.enable false | or .Content }} posts{{ end }}>
             {{- /* Posts */ -}}
         {{- if ne $posts.enable false | and .Site.RegularPages -}}
@@ -42,3 +44,4 @@
         {{- end -}}
         </div>
 {{- end -}}
+

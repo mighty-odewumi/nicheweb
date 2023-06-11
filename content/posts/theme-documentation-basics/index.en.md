@@ -6,7 +6,7 @@ lastmod: 2020-03-06T21:29:01+08:00
 draft: false
 authors: ["Dillon"]
 description: "图片介绍"
-summary: "Just install latest version of<br>Just install latest version of<br>Just install latest version of<br>Just install latest version of<br>Just install latest version of"
+summary: "Just install latest version of<br>Just install latest version of<br>Just install latest version of"
 featuredImage: "featured-image.webp<br>Just install latest version of"
 featuredImage: "featured-image.webp"
 tags: ["installation", "configuration"]
