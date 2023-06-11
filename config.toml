@@ -34,27 +34,26 @@
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "首页"
+    name = "Home"
     url = "/"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 1
-  [[menu.main]]
+
+      [[menu.main]]
     identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "所有文章"
+    name = "Posts"
     url = "/posts/"
-    # title will be shown when you hover on this menu link
     title = ""
     weight = 2
+
   [[menu.main]]
     identifier = "tags"
     pre = ""
     post = ""
-    name = "标签"
+    name = "Tags"
     url = "/tags/"
     title = ""
     weight = 6
@@ -62,7 +61,7 @@
     identifier = "categories"
     pre = ""
     post = ""
-    name = "分类"
+    name = "Categories"
     url = "/categories/"
     title = ""
     weight = 4
@@ -70,7 +69,7 @@
     identifier = "series"
     pre = ""
     post = ""
-    name = "系列"
+    name = "Series"
     url = "/series/"
     title = ""
     weight = 5
@@ -78,7 +77,7 @@
     identifier = "about"
     pre = ""
     post = ""
-    name = "关于本站"
+    name = "About"
     url = "/about/"
     title = ""
     weight = 10   
@@ -143,13 +142,13 @@
       # LOGO 的 URL
       logo = ""
       # 标题名称
-      name = "否改"
+      name = "Help provide effective choices"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
       #  是否为标题显示打字机动画
-      typeit = false
+      typeit = true
 
   # 页面底部信息配置
   [params.footer]
@@ -175,7 +174,7 @@
   #  Section (所有文章) 页面配置
   [params.section]
     # section 页面每页显示文章数量
-    paginate = 6
+    paginate = 9
     # 日期格式 (月和日)
     dateFormat = "01-02"
     # RSS 文章数目
@@ -208,13 +207,13 @@
       # 主页显示头像的 URL
       # 将你的头像文件放置于 static 或者 assets 目录下
       # 文件路径是相对于 static 或者 assets 目录的
-      avatarURL = "/images/avatar.webp"
+      avatarURL = "/images/webhead.jpg"
       # 头像的链接指向的 URL
-      avatarLinkURL = ""
+      avatarLinkURL = "/about"
       # 主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题
-      subtitle = "这是我的全新 Hugo 网站"
+      subtitle = "Difficulty in selection..."
       # 是否为副标题显示打字机动画
       typeit = false
       # 是否显示社交账号
@@ -225,14 +224,14 @@
     [params.home.posts]
       enable = true
       # 主页每页显示文章数量
-      paginate = 6
+      paginate = 9
       #  被 params.page 中的 hiddenFromHomePage 替代
       # 当你没有在文章前置参数中设置 "hiddenFromHomePage" 时的默认行为
       defaultHiddenFromHomePage = false
 
   # 作者的社交信息设置
   [params.social]
-    GitHub = "xxxx"
+    GitHub = ""
     Linkedin = ""
     Twitter = "xxxx"
     Instagram = "xxxx"
@@ -627,9 +626,9 @@
   #  网站 SEO 配置
   [params.seo]
     # 图片 URL
-    image = ""
+    image = "/images/webhead.jpg"
     # 缩略图 URL
-    thumbnailUrl = ""
+    thumbnailUrl = "/images/webhead.jpg"
 
   #  网站分析配置
   [params.analytics]
@@ -717,8 +716,8 @@
 
 # 作者配置
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Ann"
+  email = "Ann@"
   link = ""
   avatar = ""
   gravatarEmail = ""
