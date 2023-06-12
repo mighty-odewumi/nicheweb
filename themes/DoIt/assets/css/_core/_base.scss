@@ -67,8 +67,5 @@ body {
 @import "../_partial/cookieconsent";
 
 img {
-  width: 460px;
-  height: 200px;
-  object-fit: fill;
-  border-radius: 15px 15px 0px 0px;
+  object-fit: cover; 
 }

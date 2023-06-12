@@ -80,7 +80,7 @@
   }
 
   .summary {
-    
+  
     padding-top: 1rem;
     padding-bottom: .8rem;
     color: $global-font-color;
@@ -125,7 +125,6 @@
 
     .content {
       @include box(vertical);
-      -webkit-line-clamp: 3;
       margin-top: .3rem;
       width: 100%;
       overflow: hidden;

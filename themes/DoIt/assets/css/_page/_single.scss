@@ -18,7 +18,7 @@
   }
 
   .post-meta {
-    font-size: .875rem;
+    font-size: 0.875rem;
     color: $global-font-secondary-color;
 
     span {
@@ -468,6 +468,7 @@
     }
 
     .version {
+      display: inline-block;
       height: 1.25em;
       vertical-align: text-bottom;
     }

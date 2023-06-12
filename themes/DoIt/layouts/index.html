@@ -1,4 +1,3 @@
-
 {{- define "content" -}}
     {{- $params := .Scratch.Get "params" -}}
     {{- $profile := .Site.Params.home.profile -}}
@@ -18,12 +17,9 @@
                 </div>
             </div>
         {{- end -}}
-
-
     </div>
-
     <div class="page1"{{ if ne $posts.enable false | or .Content }} posts{{ end }}>
-            {{- /* Posts */ -}}
+        {{- /* Posts */ -}}
         {{- if ne $posts.enable false | and .Site.RegularPages -}}
             {{- /* Paginate */ -}}
             {{- $pages := where .Site.RegularPages "Type" "posts" -}}
@@ -42,6 +38,5 @@
             {{- end -}}
             {{- partial "paginator.html" . -}}
         {{- end -}}
-        </div>
+    </div>
 {{- end -}}
-
