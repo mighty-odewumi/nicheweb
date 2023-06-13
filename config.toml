@@ -169,7 +169,7 @@
     # ICP 备案信息, 仅在中国使用 (支持 HTML 格式)
     icp = ""
     # 许可协议信息 (支持 HTML 格式)
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a> | <a rel="license external nofollow noopener noreffer" href="/privacy_policy/" target="_blank">Privacy Policy</a><br>The web is a participant in the <a rel="license external nofollow noopener noreffer" href="Amazon.com" target="_blank">Amazon</a> Services LLC Associates Program<br> An affiliate advertising program designed to provide a means for sitesto earn advertising fees <br> By advertising and linking to <a rel="license external nofollow noopener noreffer" href="Amazon.com" target="_blank">Amazon.com.</a>'
 
   #  Section (所有文章) 页面配置
   [params.section]
@@ -336,7 +336,7 @@
     #  是否在 RSS 中显示全文内容
     rssFullText = false
     #  是否在文章开头显示系列导航
-    seriesNavigation = true
+    seriesNavigation = false
     #  过时文章提示
     [params.page.outdatedArticleReminder]
       enable = true
@@ -396,7 +396,7 @@
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
+      Linkedin = true
       Whatsapp = true
       Pinterest = false
       Tumblr = false
@@ -405,20 +405,20 @@
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
-      Pocket = false
-      Digg = false
+      Pocket = true
+      Digg = true
       Stumbleupon = false
       Flipboard = false
       Weibo = true
       Renren = false
-      Myspace = true
+      Myspace = false
       Blogger = true
-      Baidu = false
+      Baidu = true
       Odnoklassniki = false
-      Evernote = true
-      Skype = false
+      Evernote = false
+      Skype = true
       Trello = false
       Mix = false
       Mastodon = false
@@ -584,11 +584,11 @@
     #  页面 SEO 配置
     [params.page.seo]
       # 图片 URL
-      images = []
+      images = ["/images/webhead.jpg"]
       # 出版者信息
       [params.page.seo.publisher]
-        name = ""
-        logoUrl = ""
+        name = "Ann"
+        logoUrl = "/images/webhead.jpg"
     #  相关文章推荐配置
     [params.page.related]
       enable = true
