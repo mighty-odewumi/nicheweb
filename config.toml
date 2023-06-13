@@ -1,4 +1,4 @@
-  baseURL = "/"
+  baseURL = "https://annchoices.com"
   Theme = "DoIt"
   defaultContentLanguage = "en"
   title = "How to choose-Come and help me"
@@ -233,10 +233,10 @@
   [params.social]
     GitHub = ""
     Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Twitter = "Ann"
+    Instagram = "Ann"
+    Facebook = "Ann"
+    Telegram = "Ann"
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -300,7 +300,7 @@
     Linktree = ""
     QQ = ""
     QQGroup = ""
-    Email = "xxxx@xxxx.com"
+    Email = "me@annchoices.com"
     RSS = true # 
 
 
@@ -717,7 +717,7 @@
 # 作者配置
 [author]
   name = "Ann"
-  email = "Ann@"
+  email = "me@annchoices.com"
   link = ""
   avatar = ""
   gravatarEmail = ""
