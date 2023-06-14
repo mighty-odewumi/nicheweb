@@ -480,7 +480,7 @@
         # texRenderer = false
       # Facebook 评论系统设置
       [params.page.comment.facebook]
-        enable = false
+        enable = true
         width = "100%"
         numPosts = 10
         appId = "167423162972182"
