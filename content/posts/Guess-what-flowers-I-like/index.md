@@ -33,10 +33,10 @@ summary: As a lover of all things beautiful, there is nothing that excites me mo
 ---
 
 As a lover of all things beautiful, there is nothing that excites me more than the sight of a blooming flower. The vibrant colors and delicate petals are like poetry in motion, each one telling its own unique story.
+
+
+{{< js h="https://www.amazon.com/GLAMOUR-BOUTIQUE-Forever-Flower-Gift/dp/B0B9P1MS7C?_encoding=UTF8&pd_rd_w=f3Snt&content-id=amzn1.sym.5724bc92-619d-4597-ac96-996c3c19e6c4&pf_rd_p=5724bc92-619d-4597-ac96-996c3c19e6c4&pf_rd_r=CM4KB96J72X8S5RTBTFK&pd_rd_wg=Pje0S&pd_rd_r=c13cb2a1-7df9-45a9-8c98-c675acd184c8&th=1&linkCode=li3&tag=make01e-20&linkId=1e497730f2743e4095a10d009fed5569&language=en_US&ref_=as_li_ss_il" b="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B9P1MS7C&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=make01e-20&language=en_US">}}
 {{< button h="https://www.amazon.com/Graceful-Fleurs-Preserved-Delivery-Birthday/dp/B09HBX1YH9/ref=sr_1_3_sspa?crid=1STRAQ8FYWGU5&amp;keywords=flowers&amp;qid=1686489795&amp;sprefix=flow%252Caps%252C855&amp;sr=8-3-spons&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNkpSTDhPSUNWTVBXJmVuY3J5cHRlZElkPUEwMzk1Mzc3M1Y1UTVIV0JRRjFYNCZlbmNyeXB0ZWRBZElkPUEwNDMyODk2MU5KTDFMWFRJQUlVUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&amp;th=1&_encoding=UTF8&tag=make01e-20&linkCode=ur2&linkId=1aec302842eeebcec28dbfc9363f932e&camp=1789&creative=9325" b="Beautiful flowers">}}
-
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="http://ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=make01e-20&language=en_US&marketplace=amazon&region=US&placement=B0B9P1MS7C&asins=B0B9P1MS7C&linkId=49ddee76ce9f17b8dd9fc7242d31c4c1&show_border=true&link_opens_in_new_window=true"></iframe>
-
 
 
 Out of all the flowers in the world, my heart belongs to the rose. This elegant bloom has captured my attention since I was a child, and it continues to hold a special place in my heart as an adult.
