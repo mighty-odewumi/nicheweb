@@ -615,7 +615,7 @@
 
   # 网站验证代码, 用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
+    google = "6D0KDCHI_1MjS62Qgdn8RmDPEIPM9ANUJKUpL1XwFa8"
     bing = ""
     yandex = ""
     pinterest = ""
@@ -635,7 +635,7 @@
     enable = false
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-258FJ58RLW"
       # 是否匿名化用户 IP
       anonymizeIP = true
     # Fathom Analytics
