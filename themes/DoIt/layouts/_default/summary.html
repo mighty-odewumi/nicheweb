@@ -1,5 +1,4 @@
 {{- $params := .Params | merge .Site.Params.page -}}
-
 <article class="single summary" itemscope itemtype="http://schema.org/Article">
     {{- /* Featured image */ -}}
     {{- $image := $params.featuredImagePreview | default $params.featuredImage -}}
