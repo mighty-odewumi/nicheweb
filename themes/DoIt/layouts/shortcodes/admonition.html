@@ -1,5 +1,4 @@
 {{- $inner := .Inner | .Page.RenderString -}}
-
 {{- $iconMap := dict "note" "fas fa-pencil-alt fa-fw" -}}
 {{- $iconMap  = dict "abstract" "fas fa-list-ul fa-fw" | merge $iconMap -}}
 {{- $iconMap  = dict "info" "fas fa-info-circle fa-fw" | merge $iconMap -}}
