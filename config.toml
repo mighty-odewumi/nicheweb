@@ -113,9 +113,9 @@
     #  是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
     [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
+      index = "ann"
+      appID = "WUUCGRNN20"
+      searchKey = "1cfeffd9cc48034d9edc46b508782c14"
     [params.search.fuse]
       # https://fusejs.io/api/options.html
       isCaseSensitive = false
@@ -355,7 +355,7 @@
     #  代码配置
     [params.page.code]
       # 是否显示代码块的复制按钮
-      copy = true
+      copy = false
       # 默认展开显示的代码行数
       maxShownLines = 10
     #  表格配置
@@ -483,8 +483,8 @@
         enable = false
         width = "100%"
         numPosts = 10
-        appId = ""
-        languageCode = "zh_CN"
+        appId = "167423162972182"
+        languageCode = "en"
       #  Telegram Comments 评论系统设置
       [params.page.comment.telegram]
         enable = false
