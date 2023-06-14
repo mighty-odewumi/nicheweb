@@ -19,7 +19,8 @@ I envy those who seem able to make quick and confident decisions without any hes
 
 I've tried various strategies such as making lists of pros and cons, seeking advice from friends and family, but none seem to work consistently. It's frustrating because it holds me back from pursuing opportunities that could potentially be great for me.
 
-````markdown
+
+
 ```goat
                 ________                            o        *          *   .--------------.
    *---+--.    |        |     o   o      |         ^          \        /   |  .----------.  |
@@ -29,4 +30,3 @@ I've tried various strategies such as making lists of pros and cons, seeking adv
           \/        *-----'   o     |<----->|   '-----'  |__|     v         '------------'  |
           /\                                                               *---------------'
 ```
-````
