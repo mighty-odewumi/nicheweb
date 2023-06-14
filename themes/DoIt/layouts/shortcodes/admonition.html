@@ -12,7 +12,6 @@
 {{- $iconMap  = dict "example" "fas fa-list-ol fa-fw" | merge $iconMap -}}
 {{- $iconMap  = dict "quote" "fas fa-quote-right fa-fw" | merge $iconMap -}}
 {{- $iconDetails := "fas fa-angle-right fa-fw" -}}
-
 {{- if .IsNamedParams -}}
     {{- $type := .Get "type" | default "note" -}}
     <div class="details admonition {{ $type }}{{ if .Get `open` | ne false }} open{{ end }}">
