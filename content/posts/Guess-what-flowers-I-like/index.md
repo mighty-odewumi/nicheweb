@@ -34,9 +34,30 @@ summary: As a lover of all things beautiful, there is nothing that excites me mo
 
 As a lover of all things beautiful, there is nothing that excites me more than the sight of a blooming flower. The vibrant colors and delicate petals are like poetry in motion, each one telling its own unique story.
 
+{{< js h="//www.amazon.com/GLAMOUR-BOUTIQUE-Forever-Flower-Gift/dp/B0B9P1MS7C?_encoding=UTF8&pd_rd_w=f3Snt&content-id=amzn1.sym.5724bc92-619d-4597-ac96-996c3c19e6c4&pf_rd_p=5724bc92-619d-4597-ac96-996c3c19e6c4&pf_rd_r=CM4KB96J72X8S5RTBTFK&pd_rd_wg=Pje0S&pd_rd_r=c13cb2a1-7df9-45a9-8c98-c675acd184c8&th=1&linkCode=li3&tag=make01e-20&linkId=3657a903e77c1d729161309b53687488&language=en_US&ref_=as_li_ss_il" b="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B9P1MS7C&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=make01e-20&language=en_US" >}}
 
-{{< js h="https://www.amazon.com/GLAMOUR-BOUTIQUE-Forever-Flower-Gift/dp/B0B9P1MS7C?_encoding=UTF8&pd_rd_w=f3Snt&content-id=amzn1.sym.5724bc92-619d-4597-ac96-996c3c19e6c4&pf_rd_p=5724bc92-619d-4597-ac96-996c3c19e6c4&pf_rd_r=CM4KB96J72X8S5RTBTFK&pd_rd_wg=Pje0S&pd_rd_r=c13cb2a1-7df9-45a9-8c98-c675acd184c8&th=1&linkCode=li3&tag=make01e-20&linkId=1e497730f2743e4095a10d009fed5569&language=en_US&ref_=as_li_ss_il" b="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B9P1MS7C&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=make01e-20&language=en_US">}}
-{{< button h="https://www.amazon.com/Graceful-Fleurs-Preserved-Delivery-Birthday/dp/B09HBX1YH9/ref=sr_1_3_sspa?crid=1STRAQ8FYWGU5&amp;keywords=flowers&amp;qid=1686489795&amp;sprefix=flow%252Caps%252C855&amp;sr=8-3-spons&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNkpSTDhPSUNWTVBXJmVuY3J5cHRlZElkPUEwMzk1Mzc3M1Y1UTVIV0JRRjFYNCZlbmNyeXB0ZWRBZElkPUEwNDMyODk2MU5KTDFMWFRJQUlVUSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&amp;th=1&_encoding=UTF8&tag=make01e-20&linkCode=ur2&linkId=1aec302842eeebcec28dbfc9363f932e&camp=1789&creative=9325" b="Beautiful flowers">}}
+
+
+
+
+<script type="text/javascript">
+amzn_assoc_tracking_id = "make01e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_design = "enhanced_links";
+amzn_assoc_asins = "B0B9P1MS7C";
+amzn_assoc_placement = "adunit";
+amzn_assoc_linkid = "8c2f8c2cdc6f731a899dcfaadd12790e";
+</script>
+<script src="https://z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+
+
+
+
+{{< button h="https://www.amazon.com/GLAMOUR-BOUTIQUE-Forever-Flower-Gift/dp/B0B9P1MS7C?_encoding=UTF8&pd_rd_w=f3Snt&content-id=amzn1.sym.5724bc92-619d-4597-ac96-996c3c19e6c4&pf_rd_p=5724bc92-619d-4597-ac96-996c3c19e6c4&pf_rd_r=CM4KB96J72X8S5RTBTFK&pd_rd_wg=Pje0S&pd_rd_r=c13cb2a1-7df9-45a9-8c98-c675acd184c8&th=1&linkCode=li3&tag=make01e-20&linkId=3657a903e77c1d729161309b53687488&language=en_US&ref_=as_li_ss_il" b="Beautiful flowers">}}
 
 
 Out of all the flowers in the world, my heart belongs to the rose. This elegant bloom has captured my attention since I was a child, and it continues to hold a special place in my heart as an adult.

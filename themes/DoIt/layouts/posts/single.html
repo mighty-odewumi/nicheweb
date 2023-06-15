@@ -204,12 +204,27 @@
                     <span>{{ T "contents" }}</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
+<!--广告-->
+ <iframe class="adv1" src="https://rcm-na.amazon-adsystem.com/e/cm?o=1&p=48&l=ur1&category=primewardrobe&banner=094KHESR1442MM2KN2R2&f=ifr&linkID=a091e6744093e2ee1024e6c44130dd1e&t=make01e-20&tracking_id=make01e-20" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+                            <style type="text/css">
+        .adv1{
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 15px;
+        }
+    </style>
                 <div class="details-content toc-content" id="toc-content-static">
                     {{- dict "Content" .TableOfContents "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
                 </div>
             </div>
         {{- end -}}
 
+  
         {{- /* Content */ -}}
         <div class="content" id="content">
             {{- /* Outdated Article Reminder */ -}}
