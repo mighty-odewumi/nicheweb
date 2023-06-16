@@ -8,9 +8,9 @@ subtitle:
 # 标签
 tags: ["tag",]
 # 类别
-categories: ["record"]
+categories: ["xxx"]
 # 系列
-series: ["media buy"]
+series: ["xxx"]
 # 时间
 date: {{ .Date }}
 # 修改时间
@@ -24,12 +24,13 @@ description: "xxx"
 # 特图
 featuredImage: "/media_buy/1.jpg"
 # 画廊
-lightgallery: false
+lightgallery: true
 # 查看代码
 linkToSource: false
 # 摘要
 summary: "zhaiyao"
 ---
 
-{{< button h="www.baidu.com" b="dianwo">}}
+{{< button h="www.baidu.com" >}}
+{{< pic h=" " p=" ">}}
 

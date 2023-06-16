@@ -1,13 +1,13 @@
   baseURL = "https://annchoices.com"
   Theme = "DoIt"
   defaultContentLanguage = "en"
-  title = "How to choose-Come and help me"
+  title = "How to choices-Come and help me"
 
 [params]
   # 网站描述
   description = "Come and help me"
   # 网站关键词
-  keywords = ["Come and help me", "How to choose","How to use","Oily skin"]
+  keywords = ["Come and help me", "How to choices","How to use","Oily skin"]
   #  网站默认主题样式 ("light", "dark", "black", "auto")
   defaultTheme = "auto"
   # 公共 git 仓库路径, 仅在 enableGitInfo 设为 true 时有效
@@ -347,7 +347,7 @@
     #  目录配置
     [params.page.toc]
       # 是否使用目录
-      enable = true
+      enable = false
       #  是否保持使用文章前面的静态目录
       keepStatic = true
       # 是否使侧边目录自动折叠展开

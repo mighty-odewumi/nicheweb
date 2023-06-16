@@ -1,6 +1,6 @@
 <a class="abcd" 
-href="https:{{.Get "h"}}" target="_blank">
-<img class="img" border="0" src="{{.Get "b"}}" >
+href="{{.Get "h"}}" >
+<img class="pic" src="{{.Get "p"}}" >
 </a>
 
 <style>
@@ -18,10 +18,16 @@ href="https:{{.Get "h"}}" target="_blank">
   justify-content: center;
   margin: auto;
   margin-bottom: 10px;
-  margin-top: 20px;
-.img{
+  margin-top: 10px;
+.pic{
+  height: auto;
   width: auto;
 }  
+.pic:hover{
+  transition: 0.2s;
+  font-size: 18px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
 }
 .abcd:hover {
 	transition: 0.2s;
