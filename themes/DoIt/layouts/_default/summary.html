@@ -92,7 +92,8 @@
     {{- /* Footer */ -}}
     <div class="post-footer">
         <a href="{{ .RelPermalink }}">{{ T "readMore" }}</a>
-        {{- with .Params.tags -}}
+    </div>
+            {{- with .Params.tags -}}
             <div class="post-tags">
                 <i class="fas fa-tags fa-fw"></i>&nbsp;
                 {{- range $index, $value := . -}}
@@ -102,5 +103,4 @@
                 {{- end -}}
             </div>
         {{- end -}}
-    </div>
 </article>
