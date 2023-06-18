@@ -20,7 +20,8 @@
   max-width: 1368px;
   width: 100%;
   margin: auto;
-  flex-wrap:wrap; 
+  flex-wrap:wrap;
+  padding-top: 1rem;
   
 .summary{
     width: 440px;
@@ -50,7 +51,7 @@
 white-space: nowrap;
     position: absolute;
     bottom: 0px;
-    left: -280px;
+    right: 300px;
 }
 
 .newtit{
