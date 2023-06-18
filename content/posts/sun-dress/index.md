@@ -22,7 +22,7 @@ hiddenFromHomePage: false
 # 特图介绍
 description: "Sun Dress"
 # 特图
-featuredImage: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/db9cd24d-3699-42bc-81c3-8b8abcc70922.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+featuredImage: "2.jpg"
 # 画廊
 lightgallery: true
 # 查看代码

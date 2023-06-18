@@ -33,7 +33,7 @@ summary: "Pretty Dresses You Can Buy Online for Less than $50, the fit of the dr
 When it comes to selecting a beautiful dress, there are several factors that one should consider. First and foremost, the fit of the dress is crucial. It should be neither too tight nor too loose but rather sit comfortably on your body.
 
 {{< button h="https://www.amazon.com/SOLY-HUX-Womens-Floral-Button/dp/B09996FMS3?crid=W3PWN0YP1J0M&keywords=dress&qid=1686822047&sprefix=dress%2Caps%2C569&sr=8-37&th=1&linkCode=li2&tag=make01e-20&linkId=ba835e6b54cf4f5ae999aca18fa2e8a7&language=en_US&ref_=as_li_ss_il" b="Buy to Amazon">}}
-{{< pic h="https://www.amazon.com/SOLY-HUX-Womens-Floral-Button/dp/B09996FMS3?crid=W3PWN0YP1J0M&keywords=dress&qid=1686822047&sprefix=dress%2Caps%2C569&sr=8-37&th=1&linkCode=li2&tag=make01e-20&linkId=ba835e6b54cf4f5ae999aca18fa2e8a7&language=en_US&ref_=as_li_ss_il" p="https://m.media-amazon.com/images/S/aplus-media-library-service-media/90de58c3-6862-48a2-bd6a-6a64280d12f2.__CR0,0,970,600_PT0_SX970_V1___.jpg">}}
+{{< pic h="2.jpg">}}
 
 Secondly, the color of the dress is an important aspect to think about. Different colors suit different skin tones and personalities; therefore, it's important to choose a color that complements you.
 
