@@ -35,6 +35,21 @@ When it comes to selecting a beautiful dress, there are several factors that one
 {{< button h="https://www.amazon.com/SOLY-HUX-Womens-Floral-Button/dp/B09996FMS3?crid=W3PWN0YP1J0M&keywords=dress&qid=1686822047&sprefix=dress%2Caps%2C569&sr=8-37&th=1&linkCode=li2&tag=make01e-20&linkId=ba835e6b54cf4f5ae999aca18fa2e8a7&language=en_US&ref_=as_li_ss_il" b="Buy to Amazon">}}
 {{< pic h="2.jpg">}}
 
+<div class="class">
+<script type="text/javascript">
+amzn_assoc_tracking_id = "make01e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_design = "enhanced_links";
+amzn_assoc_asins = "B09174CWK5";
+amzn_assoc_placement = "adunit";
+amzn_assoc_linkid = "40e3fc19d1cff739ba5c3576278db904";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+</div>
+
 Secondly, the color of the dress is an important aspect to think about. Different colors suit different skin tones and personalities; therefore, it's important to choose a color that complements you.
 
 Additionally, the style of the dress plays a significant role in determining its beauty. One can opt for a classic cut or experiment with something more contemporary if they prefer.
