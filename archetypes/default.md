@@ -22,7 +22,7 @@ hiddenFromHomePage: false
 # 特图介绍
 description: "xxx"
 # 特图
-featuredImage: "/media_buy/1.jpg"
+featuredImage: "1.jpg"
 # 画廊
 lightgallery: true
 # 查看代码
