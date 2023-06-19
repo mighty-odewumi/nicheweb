@@ -1,4 +1,4 @@
 ---
-title: Getting start with DoIt
-introduction: This series of articles helps you build your own blog with DoIt theme from scratch.
+title: spring start with DoIt
+introduction: spring choices. Can you help me with choices
 ---
