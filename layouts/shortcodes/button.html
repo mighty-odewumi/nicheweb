@@ -9,22 +9,32 @@
 <style>
 
 .ads {
+  width: 320px;
   background-color: #ffa41c; /* Green */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffcb7e), to(#ffa41c))!important;
+  line-height: 6px;
   border: none;
-  color: black;
+  color: #fff;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: flex;
-  font-size: 16px;
-  border-radius: 15px;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
   justify-content: center;
   margin: auto;
+  text-shadow: 1px 0 0 #081206;
+  transition: all .5s
 }
 
 .ads:hover {
 	transition: 0.2s;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-image: -webkit-gradient(linear, 10% 0, 20% 90%, color-stop(4%, #ffa41c), color-stop(100%, #ffcb7e))!important;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .2s
 }
 
 </style>
