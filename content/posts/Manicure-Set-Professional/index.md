@@ -8,7 +8,7 @@ subtitle:
 # 标签
 tags: ["body",]
 # 类别
-categories: ["tool"]
+categories: ["tools"]
 # 系列
 series:
 # 时间

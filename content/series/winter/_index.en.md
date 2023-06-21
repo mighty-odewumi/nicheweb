@@ -1,4 +1,5 @@
 ---
-title: Getting start with DoIt
-introduction: This series of articles helps you build your own blog with DoIt theme from scratch.
+title: winter is here
+introduction: winter choices. Can you help me with choices
+description: "cold winter, the winter choices by ANN"
 ---
