@@ -14,7 +14,7 @@ series: ["summer"]
 # 时间
 date: 2023-06-19T14:18:51+08:00
 # 修改时间
-lastmod:
+lastmod: 2023-06-21T14:18:51+08:00
 # 编译
 draft: false
 # 主页是否显示 如果为true，则内容不会显示在主页中。
@@ -29,6 +29,10 @@ lightgallery: true
 linkToSource: false
 # 摘要
 summary: "whether you wear them for fashion purposes or functionality reasons"
+# 页面描述
+introduction: "Overalls are aaa type of clothing that have been around for centuries. Originally worn by farmers and laborers as functional workwear, overalls have since evolved into fashionable yet practical attire."
+# 文章关键字
+keywords: "Overalls"
 ---
 
 Overalls are a type of clothing that have been around for centuries. Originally worn by farmers and laborers as functional workwear, overalls have since evolved into fashionable yet practical attire.
