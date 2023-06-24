@@ -55,3 +55,21 @@ In conclusion, creating a DIY cap using LEGOs is an enjoyable activity that prov
 
 Building your own hat patterns is an enjoyable way for families to bond while providing numerous developmental benefits for all involved parties. So why not grab some supplies today? Create something beautiful with those little hands!
 
+{{< adv1 >}}
+
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=4a2a863a-4286-402c-87ee-40af80e515ed"></script>
+
+<div id="amzn-assoc-ad-4a2a863a-4286-402c-87ee-40af80e515ed"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=4a2a863a-4286-402c-87ee-40af80e515ed"></script>
+
+<script type="text/javascript">
+amzn_assoc_tracking_id = "make01e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_design = "enhanced_links";
+amzn_assoc_asins = "B089SVM2YP";
+amzn_assoc_placement = "adunit";
+amzn_assoc_linkid = "364d9aa6ded61d79bdd872c497fd8cf3";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
