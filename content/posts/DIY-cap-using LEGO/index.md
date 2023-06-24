@@ -54,4 +54,18 @@ This project not only encourages creativity but also improves hand-eye coordinat
 In conclusion, creating a DIY cap using LEGOs is an enjoyable activity that provides opportunities for personal expression while improving fine motor skills in individuals young or old alike! So why not try making one today? Who knows where this newfound hobby might take you!
 
 Building your own hat patterns is an enjoyable way for families to bond while providing numerous developmental benefits for all involved parties. So why not grab some supplies today? Create something beautiful with those little hands!
-
+<div class=bak>
+<script type="text/javascript">
+amzn_assoc_tracking_id = "make01e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_design = "enhanced_links";
+amzn_assoc_asins = "B089SVM2YP";
+amzn_assoc_placement = "adunit";
+amzn_assoc_linkid = "364d9aa6ded61d79bdd872c497fd8cf3";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+</div>
+<a href="https://www.amazon.com/Womens-Waterproof-Watches-Minimalist-Simple/dp/B089SVM2YP?crid=22QC69YW39BXL&keywords=watch&qid=1687565652&rnid=2941120011&s=apparel&sprefix=watch%2Caps%2C432&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=li2&tag=make01e-20&linkId=c1c1ef46be3584906a30572882d93bf3&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B089SVM2YP&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=make01e-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=make01e-20&language=en_US&l=li2&o=1&a=B089SVM2YP" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
