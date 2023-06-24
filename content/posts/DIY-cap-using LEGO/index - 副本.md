@@ -31,9 +31,6 @@ linkToSource: false
 summary: "This hat is great for daily fashion, cosplay, costumes and Halloween whimsical wear."
 ---
 
-# DIY cap using LEGO
-
-
 Have you ever thought about creating a cap using LEGO bricks? It may sound like an unusual idea, but it can be a fun and creative DIY project for both kids and adults.
 {{< button h="https://amzn.to/42YwOwW" >}}
 {{< pic h="https://amzn.to/42YwOwW" p="https://m.media-amazon.com/images/I/81IBUuUdj9L._AC_UX679_.jpg">}}
@@ -60,17 +57,21 @@ Building your own hat patterns is an enjoyable way for families to bond while pr
 
 {{< adv1 >}}
 
-<div>
-    <script type="text/javascript">
-    amzn_assoc_tracking_id = "make01e-20";
-    amzn_assoc_ad_mode = "manual";
-    amzn_assoc_ad_type = "smart";
-    amzn_assoc_marketplace = "amazon";
-    amzn_assoc_region = "US";
-    amzn_assoc_design = "enhanced_links";
-    amzn_assoc_asins = "B089SVM2YP";
-    amzn_assoc_placement = "adunit";
-    amzn_assoc_linkid = "364d9aa6ded61d79bdd872c497fd8cf3";
-    </script>
-    <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
-</div>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=4a2a863a-4286-402c-87ee-40af80e515ed"></script>
+
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=4a2a863a-4286-402c-87ee-40af80e515ed"></script>
+
+<div id="amzn-assoc-ad-4a2a863a-4286-402c-87ee-40af80e515ed"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=4a2a863a-4286-402c-87ee-40af80e515ed"></script>
+
+<script type="text/javascript">
+amzn_assoc_tracking_id = "make01e-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_design = "enhanced_links";
+amzn_assoc_asins = "B089SVM2YP";
+amzn_assoc_placement = "adunit";
+amzn_assoc_linkid = "364d9aa6ded61d79bdd872c497fd8cf3";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
