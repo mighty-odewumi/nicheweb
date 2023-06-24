@@ -233,10 +233,10 @@
   [params.social]
     GitHub = ""
     Linkedin = ""
-    Twitter = "Ann"
-    Instagram = "Ann"
-    Facebook = "Ann"
-    Telegram = "Ann"
+    Twitter = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -300,7 +300,7 @@
     Linktree = ""
     QQ = ""
     QQGroup = ""
-    Email = "me@annchoices.com"
+    Email = "webmaster@annchoices.com"
     RSS = true # 
 
 
