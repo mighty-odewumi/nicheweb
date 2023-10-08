@@ -1,0 +1,184 @@
+h1,
+h2,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.topBar {
+    border-top: 1em solid #35647e;
+    background-color: #eeeff1;
+}
+
+.topBar .fa {
+    color: rgb(0, 163, 138);
+}
+
+.logo {
+    color: #1b3f95;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+h1 {
+    color: #778C9B;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 800;
+}
+
+h2 {
+    color: #1b3f95;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    line-height: 1;
+    font-weight: 400;
+}
+h3 {
+    color: #1b3f95;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    line-height: 1;
+    font-weight: 400;
+}
+
+
+.banners a {
+    text-decoration: none;
+}
+
+.banners {
+    max-width: 62.5rem;
+    margin: 0 auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #000;
+    cursor: pointer;
+}
+
+.centered {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    background-color: #7c76bb8c;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4em;
+    padding: .6em;
+    line-height: 1.1;
+}
+
+.centered:hover {
+    -webkit-animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+footer.page-footer-1 {
+    background-color: #e2e9ef;
+    color: #000000;
+    padding: 17px;
+    text-align: center;
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1px;
+}
+.advertiselink{
+        font-size: 20px;
+        color: #7c76bb;
+    }  
+
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        background-color: rgba(28, 61, 78, 0.8);
+    }
+    100% {
+        background-color: rgba(0, 163, 138, 0.9);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        background-color: rgba(28, 61, 78, 0.8);
+    }
+    100% {
+        background-color: rgba(0, 163, 138, 0.9);
+    }
+}
+
+/* All Mobile Devices */
+
+@media screen and (max-width: 38em) {
+    .padding-1,
+    .padding-2 {
+        padding: .5rem !important;
+    }
+    .questions h2 {
+        padding-bottom: 0 !important;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .topBar {
+        border-top: .7em solid #35647e;
+    }
+    .centered {
+        font-size: 0.8em;
+        line-height: 1.1;
+    }
+    .grid-margin-x.small-up-1>.cell {
+        width: calc(80% - .8rem);
+    }
+}
+
+/*   iPads Portrait */
+
+@media only screen and (min-width: 760px) and (max-width: 775px) {
+    .centered {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Nexus Portrait */
+
+@media only screen and (min-width: 776px) and (max-width: 984px) {
+    .centered {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+/*   iPads Landscape */
+
+@media only screen and (min-width: 776px) and (max-width: 1024px) {
+    .centered {
+        font-size: 1em;
+    }
+}

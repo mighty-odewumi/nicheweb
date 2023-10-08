@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>获取页面</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>获取页面</h1>
+        <p>这些会结，请取！</p>
+    </header>
+    <section class="promotion-list">
+        <div class="promotion-item">
+            <img src="image1.jpg" alt="1">
+            <h2 class="title float-bottom">1</h2>
+            <p>限量50张，到你手中！</p>
+        </div>
+        <div class="promotion-item">
+            <img src="image2.jpg" alt="2">
+            <h2 class="title float-bottom">2</h2>
+            <p>限量30张，到你手中！</p>
+        </div>
+        <div class="promotion-item">
+            <img src="image3.jpg" alt="3">
+            <h2 class="title float-bottom">3</h2>
+            <p>限量20张，到你手中！</p>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <p>&copy; 2023 获取页面</p>
+    </footer>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header.page-header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            height: 100%;
+            width: 100%;
+            
+        }
+
+        section.promotion-list {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        div.promotion-item {
+            width: 33%;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        div.promotion-item img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h2.title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            position: relative;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        p.promotion-description {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        footer.page-footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+    </style>
+</body>
+</html>
