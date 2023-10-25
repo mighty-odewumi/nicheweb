@@ -7,6 +7,10 @@
   width: 100%;
   padding: 1rem 0 0;
 
+  @media screen and (min-width: 700px) {
+    display: block;
+  }
+
   a {
     font-size: .8rem;
     color: $global-font-secondary-color;
@@ -14,10 +18,13 @@
     font-weight: 700;
     padding: 5px 5px;
     text-decoration: none;
+
     @include transition(0.3s);
+
     [theme=dark] & {
       color: $global-font-secondary-color-dark;
     }
+
     [theme=black] & {
       color: $global-font-secondary-color-black;
     }
@@ -41,6 +48,7 @@
     [theme=dark] &:hover a {
       color: $pagination-link-hover-color-dark;
     }
+
     [theme=black] &:hover a {
       color: $pagination-link-hover-color-black;
     }
@@ -60,6 +68,7 @@
     [theme=dark] &:after {
       background: $pagination-link-hover-color-dark;
     }
+
     [theme=black] &:before,
     [theme=black] &:after {
       background: $pagination-link-hover-color-black;
@@ -94,6 +103,7 @@
       [theme=dark] & a {
         color: $pagination-link-hover-color-dark;
       }
+      
       [theme=black] & a {
         color: $pagination-link-hover-color-black;
       }

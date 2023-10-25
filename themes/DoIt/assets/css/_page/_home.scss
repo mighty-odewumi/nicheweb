@@ -19,7 +19,7 @@
       }
     }
 
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: 700px) {
       align-items: center;
     }
 
@@ -101,6 +101,7 @@
       [theme=dark] & {
         color: $global-font-secondary-color-dark;
       }
+      
       [theme=black] & {
         color: $global-font-secondary-color-black;
       }
@@ -129,6 +130,7 @@
       color: $global-font-color-dark;
       border-bottom: 0px dashed $global-border-color-dark;
     }
+
     [theme=black] & {
       color: $global-font-color-black;
       border-bottom: 0px dashed $global-border-color-black;
@@ -168,7 +170,9 @@
       width: 100%;
       overflow: hidden;
       text-overflow: ellipsis;
+
       @include overflow-wrap(break-word);
+
       color: $global-font-secondary-color;
 
       [theme=dark] & {

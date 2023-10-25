@@ -2,8 +2,13 @@
     {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" }} - {{ .Site.Title -}}
 {{- end -}}
 
+
 {{- define "content" -}}
+
     <div class="page archive">
+
+        <h1>Hello world</h1>
+        
         {{- /* Title */ -}}
         <h2 class="single-title animate__animated animate__pulse animate__faster">
             {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" -}}

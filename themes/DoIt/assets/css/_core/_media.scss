@@ -37,7 +37,7 @@
   }
 
   .page {
-    width: 80% !important;
+    width: 100% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -80,13 +80,18 @@
   }
 
   .copyright {
+
     .copyright-line {
+
       .icp-splitter {
         display: none;
       }
+
       .icp-br {
         display: block;
       }
+
     }
+    
   }
 }
