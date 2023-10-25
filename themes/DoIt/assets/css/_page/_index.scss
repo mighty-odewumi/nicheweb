@@ -1,4 +1,4 @@
-.page {
+.page:not(.home-hero-container) {
   position: relative;
   max-width: 800px;
   width: 60%;

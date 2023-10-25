@@ -1,4 +1,20 @@
 {{- $profile := .Site.Params.home.profile -}}
+
+<div class="home-hero-container" >
+    <div class="hero-text-container">
+        <h1>Let's make effective choices together</h1>
+
+        <p>
+            Join me in our journey to make effective choices together. Your participation and insights are key to our shared success. Let's navigate life's decisions as one whole force!
+        </p>
+    </div>
+
+    <div class="hero-image-container">
+        <img src="/images/choice-concept.jpg" alt="hero image" style="width: 100%; height: auto;  object-fit: unset !important">
+    </div>
+</div>
+
+
 <div class="home-profile">
     {{- $avatar := $profile.avatarURL -}}
     {{- with $profile.gravatarEmail -}}

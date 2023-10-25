@@ -1,4 +1,43 @@
 .home {
+
+  .home-hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
+    margin-top: 24px;
+
+    @media screen and (min-width: 600px) {
+      flex-direction: row;
+
+      .hero-text-container {
+        width: 80%;
+      }
+
+      .hero-image-container {
+        width: 80%;
+      }
+    }
+
+    @media screen and (min-width: 900px) {
+      align-items: center;
+    }
+
+    @media screen and (min-width: 1000px) {
+
+      .hero-text-container {
+        width: 100%;
+      }
+
+      .hero-image-container {
+        width: 100%;
+      }
+      
+    }
+    
+  }
+
+
   .home-profile {
     @include transform(translateY( 16vh));
     padding: 0 0 .5rem;
