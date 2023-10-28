@@ -1,13 +1,36 @@
 .archive {
 
-  @media screen and (min-width: 700px) {
-    display: flex;
-    justify-content: space-between;  
-    align-items: center;
-    gap: 24px;
+  .archive-sidebar .archive-post {
+    border: 1px solid rgb(201, 193, 193);
+    border-radius: 10px;
+    padding: 16px;
+    margin-top: 20px;
+    width: 300px;
+
+    &:hover {
+      box-shadow: 0 5px 15px hsla(0, 7%, 19%, 0.897);
+      transition: ease-in .1s;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+
+      &:hover {
+        box-shadow: 0 4px 6px hsla(0, 0%, 0%, 0.281);
+        transition: ease-in .1s;
+        margin-top: 5px;
+      }
+    }
   }
 
-  .single-title {
+  @media screen and (min-width: 700px) {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;    
+  }
+
+  .single-title:not(.archive h1) {
     text-align: right;
   }
 

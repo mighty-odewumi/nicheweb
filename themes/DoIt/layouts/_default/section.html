@@ -1,46 +1,113 @@
-{{- define "title" }}
-    {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" }} - {{ .Site.Title -}}
-{{- end -}}
+{{- define "title" }} {{- .Params.Title | default (T .Section) | default
+.Section | dict "Some" | T "allSome" }} - {{ .Site.Title -}} {{- end -}} {{-
+define "content" -}}
 
+<div class="page archive">
+    <div class="main-archive">
+        {{- /* Title */ -}}
+        <h2 class="single-title animate__animated animate__pulse animate__faster">
+            {{- .Params.Title | default (T .Section) | default .Section | dict "Some"
+            | T "allSome" -}}
+        </h2>
 
-{{- define "content" -}}
+        {{- /* Paginate */ -}} {{- if .Pages -}} {{- $pages := .Pages.GroupByDate
+        "2006" -}} {{- with .Site.Params.section.paginate | default
+        .Site.Params.paginate -}} {{- $pages = $.Paginate $pages . -}} {{- else -}}
+        {{- $pages = .Paginate $pages -}} {{- end -}} {{- partial
+        "recentlyUpdated.html" . -}} {{- range $pages.PageGroups -}}
+        <h3 class="group-title">{{ .Key }}</h3>
+        {{- range .Pages -}}
+        <article class="archive-item">
+            <a href="{{ .RelPermalink }}" class="archive-item-link">
+                {{- .Title -}}
+            </a>
+            <span class="archive-item-date">
+                {{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format
+                -}}
+            </span>
+        </article>
+        {{- end -}} {{- end -}} {{- partial "paginator.html" . -}} {{- end -}}
+    </div>
 
-    <div class="page archive">
-        <div class="main-archive">
-            
-            {{- /* Title */ -}}
-            <h2 class="single-title animate__animated animate__pulse animate__faster">
-                {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" -}}
-            </h2>
+    <div class="archive-sidebar">
 
-            {{- /* Paginate */ -}}
-            {{- if .Pages -}}
-                {{- $pages := .Pages.GroupByDate "2006" -}}
-                {{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
-                    {{- $pages = $.Paginate $pages . -}}
-                {{- else -}}
-                    {{- $pages = .Paginate $pages -}}
-                {{- end -}}
-                {{- partial "recentlyUpdated.html" . -}}
-                {{- range $pages.PageGroups -}}
-                    <h3 class="group-title">{{ .Key }}</h3>
-                    {{- range .Pages -}}
-                        <article class="archive-item">
-                            <a href="{{ .RelPermalink }}" class="archive-item-link">
-                                {{- .Title -}}
-                            </a>
-                            <span class="archive-item-date">
-                                {{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}
-                            </span>
-                        </article>
-                    {{- end -}}
-                {{- end -}}
-                {{- partial "paginator.html" . -}}
-            {{- end -}}
+        <h1>Advertisements</h1>
 
+        <div class="archive-post single summary">
+            <a href="/linen-romper">
+                <img src="/images/linen-romper.jpg" alt="linen-romper" />
+            </a>
+
+            <h1 class="single-title" itemprop="name headline">
+                <a class="newtit" href="/linen-romper/">Linen Romper</a>
+            </h1>
+
+            <div class="post-meta">
+                <span class="post-author">
+                    <span class="author"><span class="author fas fa-user-circle fa-fw"></span><span
+                            class="screen-reader-text"> </span><a href="/authors/ann">Ann</a></span>
+                </span>&nbsp;<span class="post-publish">published on <time
+                        datetime="2023-06-19">2023-06-19</time></span>
+                <div class="content">
+                    whether you wear them for fashion purposes or functionality reasons
+                </div>
+                <div class="post-footer">
+                    <a href="/linen-romper/">Read more...</a>
+                </div>
+                <div class="post-tags">
+                    <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/romper/">Romper</a>
+                </div>
+            </div>
         </div>
 
-        <div class="advh">
+        <div class="archive-post single summary">
+
+            <a href="/choices-beautiful-dress">
+                <img src="/images/choices-dresses.jpg" alt="choices-beautiful-dress" />
+            </a>
+
+            <h1 class="single-title" itemprop="name headline">
+                <a class="newtit" href="/choices-beautiful-dress/">Choices Beautiful Dress</a>
+            </h1>
+            <div class="post-meta">
+                <span class="post-author"><span class="author"><span
+                            class="author fas fa-user-circle fa-fw"></span><span class="screen-reader-text"> </span><a
+                            href="/authors/ann">Ann</a></span>
+                </span>&nbsp;<span class="post-publish">published on <time
+                        datetime="2023-06-16">2023-06-16</time></span>
+                <div class="content">Pretty Dresses You Can Buy Online for Less than $50, the fit of the dress is
+                    crucial. It should be neither too tight nor too loose but rather sit comfortably on your body.</div>
+                <div class="post-footer">
+                    <a href="/choices-beautiful-dress/">Read more...</a>
+                </div>
+                <div class="post-tags">
+                    <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/dress/">Dress</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="adv">
+            <iframe class="adv1"src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=50&l=ur1&category=pets_sns&banner=05YGV1NG1MSJYHCSE282&f=ifr&linkID=8ef35fce520607b53c829dcdfbab68c3&t=make01e-20&tracking_id=make01e-20"  scrolling="no" border="0" marginwidth="0" width="100%" height="300"  style="object-fit: contain;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+            
+            <style type="text/css">
+                .adv{
+                    border: none;
+                    text-align: center;
+                    text-decoration: none;
+                    display: flex;
+                    border-radius: 5px;
+                    justify-content: center;
+                    margin: auto;
+                    margin-top: 15px;
+                    width:auto; 
+                    height:auto;
+                    object-fit: contain;
+                    }
+            </style>
+        </div> -->
+
+        <!-- <div class="advh">
             <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=48&l=ur1&category=beauty_sns&banner=0X3Z6EPSHZMM33642DR2&f=ifr&linkID=ddcac91b318e0ee67645afaa653c8947&t=make01e-20&tracking_id=make01e-20" width="100%" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
             
                 <style type="text/css">
@@ -55,7 +122,7 @@
                         width: 100%;
                     }
                 </style>
-        </div>
+        </div> -->
     </div>
-{{- end -}}
-
+    {{- end -}}
+    
